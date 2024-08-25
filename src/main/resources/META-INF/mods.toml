@@ -9,7 +9,8 @@ version="${file.jarVersion}"
 displayName="Teleport Master"
 logoFile="logo.png"
 credits="Liu Dongyu"
-authors="Hexagram"
+authors="Hexagram、R3944Realms(Imporve Command)"
+
 
 description='''
 This mod adds some commands for teleporting.

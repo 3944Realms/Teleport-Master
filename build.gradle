@@ -20,7 +20,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'org.spongepowered.mixin'
 
 
-version = '1.0.2'
+version = '1.0.3'
 group = 'com.hexagram2021.tpmaster'
 archivesBaseName = 'tpmaster'
 
