@@ -29,5 +29,5 @@
   "commands.tpmaster.back.failed.no_level": "無法回到死亡點，無效的維度“%s”。",
   "commands.tpmaster.remove.home.success": "成功刪除您的第%d個家。",
   "commands.tpmaster.remove.back.success": "成功刪除您的上一個死亡點。",
-  "commands.tpmaster.help": "使用方法：`/<operation> [<arg1> <arg2> ...]`。\n`/tpaaccept`——同意您剛剛收到的傳送請求。\n`/tpadeny`——拒絕您剛剛收到的傳送請求。\n`/tpaaway [<distance> [<mustOnLand>]]`——隨機將您傳送到 <distance> 格以外（禁用 <mustOnLand> 可以允許您傳送到海面上）。\n`/tpa <target> [ home ]`——創建一個傳送請求，向 <target> 詢問您能否傳送到 <target> 的位置，或邀請 <target> 傳送到您的位置。\n`/tpaspawn`——傳送到公共重生點。\n`/sethome [<index>]`——將您當前的位置設置爲您的第 <index> 個家。\n`/home [<index>]`——傳送到您的第 <index> 個家。\n`/back`——傳送到您的上一個死亡點。\n`/delete home [<index>]`——刪除您的第 <index> 個家。\n`/delete back`——刪除您的上一個死亡點。\n`/tpaHelp`——顯示幫助信息。"
+  "commands.tpmaster.help": "使用方法：`/<operation> [<arg1> <arg2> ...]`。\n`/tpaaccept`——同意您剛剛收到的傳送請求。\n`/tpadeny`——拒絕您剛剛收到的傳送請求。\n`/tpaaway [<distance> [<mustOnLand>]]`——隨機將您傳送到 <distance> 格以外（禁用 <mustOnLand> 可以允許您傳送到海面上）。\n`/tpa <target> <[here]>`——創建一個傳送請求，向 <target> 詢問您能否傳送到 <target> 的位置，或邀請 <target> 傳送到您的位置。\n`/tpaspawn`——傳送到公共重生點。\n`/sethome [<index>]`——將您當前的位置設置爲您的第 <index> 個家。\n`/home [<index>]`——傳送到您的第 <index> 個家。\n`/back`——傳送到您的上一個死亡點。\n`/delete home [<index>]`——刪除您的第 <index> 個家。\n`/delete back`——刪除您的上一個死亡點。\n`/tpaHelp`——顯示幫助信息。"
 }
