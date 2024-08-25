@@ -19,7 +19,7 @@
   "commands.tpmaster.away.success": "成功将您传送到%d方块远的距离。",
   "commands.tpmaster.away.invalid.distance": "非法的参数 distance = %d，其范围为 0 < distance < 10000。",
   "commands.tpmaster.away.failed.no_position": "找不到合法的传送位置。请等待一会重试（建议尝试使用不同的参数）。",
-  "commands.tpmaster.away.failed.cool_down": "您使用指令`/tpaaway`太过频繁！请等待%d秒。",
+  "commands.tpmaster.away.failed.cool_down": "您使用指令`/rtp`太过频繁！请等待%d秒。",
   "commands.tpmaster.sethome.success": "成功将位置坐标(%d, %d, %d)设置为您的第%d个家。",
   "commands.tpmaster.sethome.invalid.index": "非法的参数 index = %d，其范围为 0 <= index < %d。",
   "commands.tpmaster.home.failed.no_home": "无法回家，您还没有设置您的第%d个家。",
@@ -28,5 +28,5 @@
   "commands.tpmaster.back.failed.no_level": "无法回到死亡点，失配的维度“%s”。",
   "commands.tpmaster.remove.home.success": "成功删除您的第%d个家。",
   "commands.tpmaster.remove.back.success": "成功删除您的上一个死亡点。",
-  "commands.tpmaster.help": "使用方法：`/tpmaster <operation> [<arg1> <arg2> ...]`。\n`/tpaaccept`——同意您刚刚收到的传送请求。\n`/tpadeny`——拒绝您刚刚收到的传送请求。\n`/tpaaway [<distance> [<mustOnLand>]]`——随机将您传送到 <distance> 格以外（禁用 <mustOnLand> 可以允许您传送到海面上）。\n`/tpa <target> [ here ]`——创建一个传送请求，向 <target> 询问您能否传送到 <target> 的位置 ([可选参数 here] 邀请 <target> 传送到您的位置)。\n`/tpaspawn`——传送到公共重生点。\n`/tpmaster sethome [<index>]`——将您当前的位置设置为您的第 <index> 个家。\n`/tpmaster home [<index>]`——传送到您的第 <index> 个家。\n`/tpmaster back`——传送到您的上一个死亡点。\n`/tpmaster remove home [<index>]`——删除您的第 <index> 个家。\n`/tpmaster remove back`——删除您的上一个死亡点。\n`/tpmaster help`——显示帮助信息。"
+  "commands.tpmaster.help": "使用方法：`/<operation> [<arg1> <arg2> ...]`。\n`/tpaaccept`——同意您刚刚收到的传送请求。\n`/tpadeny`——拒绝您刚刚收到的传送请求。\n`/rtp [<distance> [<mustOnLand>]]`——随机将您传送到 <distance> 格以外（禁用 <mustOnLand> 可以允许您传送到海面上）。\n`/tpa <target> <[here]>`——创建一个传送请求，向 <target> 询问您能否传送到 <target> 的位置 ([可选 here] 邀请 <target> 传送到您的位置)。\n`/tpaspawn`——传送到公共重生点。\n`/sethome [<index>]`——将您当前的位置设置为您的第 <index> 个家。\n`/home [<index>]`——传送到您的第 <index> 个家。\n`/back`——传送到您的上一个死亡点。\n`/delete home [<index>]`——删除您的第 <index> 个家。\n`/delete back`——删除您的上一个死亡点。\n`/tpaHelp`——显示帮助信息。"
 }

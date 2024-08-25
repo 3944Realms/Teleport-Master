@@ -54,7 +54,7 @@ public class TPMCommands {
 		Command<CommandSourceStack> Tpa_away_distance = context -> away(context.getSource(), context.getSource().getEntityOrException(), context.getArgument("distance", Integer.class), true, null);
 		Command<CommandSourceStack> Tpa_away_distance_mustOnLand = context -> away(context.getSource(), context.getSource().getEntityOrException(), context.getArgument("distance", Integer.class), context.getArgument("mustOnLand", Boolean.class), null);
 		commandList.add(
-				Commands.literal("tpaaway").requires(stack -> stack.hasPermission(TPMServerConfig.AWAY_PERMISSION_LEVEL.get()))
+				Commands.literal("rtp").requires(stack -> stack.hasPermission(TPMServerConfig.AWAY_PERMISSION_LEVEL.get()))
 						.executes(Tpa_away)
 						.then(
 								Commands.argument("distance", IntegerArgumentType.integer(0, 10000))
